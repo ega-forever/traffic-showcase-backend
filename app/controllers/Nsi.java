@@ -7,7 +7,7 @@ import play.mvc.Result;
 
 
 /**
- * Created by Egor on 07.05.2016.
+ * @factory NSI - store get accessors for ORM entities
  */
 public class Nsi extends Controller {
 

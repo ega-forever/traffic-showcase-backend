@@ -1,5 +1,6 @@
-package filters; /**
- * Created by Egor on 07.05.2016.
+package filters;
+/**
+ *@filter Filters - filter for allowing CORS requests
  */
 
 import play.api.mvc.EssentialFilter;

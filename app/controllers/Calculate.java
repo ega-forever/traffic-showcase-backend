@@ -11,7 +11,10 @@ import play.mvc.Result;
 import java.util.Map;
 
 /**
- * Created by Egor on 07.05.2016.
+ * @method GET
+ * @params: busId, distance
+ * @controller Calculate - calculates total income by bus type and distance
+ * @return json message
  */
 public class Calculate extends Controller {
 
@@ -37,6 +40,7 @@ public class Calculate extends Controller {
         node.put("calculated", bus.fuel.price * distance);
         node.put("fuelType", bus.fuel.name);
         node.put("distance", distance + " km");
+        node.put("total income", bus.fuel.price * distance * 1.2);
 
 
         return ok(node);

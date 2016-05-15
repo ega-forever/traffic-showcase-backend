@@ -14,7 +14,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * Created by Egor on 07.05.2016.
+ *@action TestData - upload test data to db
  */
 public class TestData {
 

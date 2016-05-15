@@ -6,7 +6,7 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 import javax.persistence.*;
 
 /**
- * Created by Egor on 07.05.2016.
+ *@Entity Bus - bus table
  */
 @Entity
 @Table(name = "BUS")

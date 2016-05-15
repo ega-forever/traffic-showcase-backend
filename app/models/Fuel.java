@@ -8,7 +8,7 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 /**
- * Created by Egor on 07.05.2016.
+ *@Entity Fuel - fuel table
  */
 @Entity
 @Table(name = "Fuel")
